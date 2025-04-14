@@ -13,6 +13,56 @@
     margin: 1000px;
 }*/
 
-p{
+/*p{
     margin: 25px 50px 75px;
-}
+}*/
+
+/*div{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+}*/
+
+/*div{
+    margin: 100px 280px 100px 280px;
+}*/
+
+
+
+
+ /*div{
+    height: 200px;
+    max-width:500px ;
+    background-color: lightblue;
+ 
+ }*/
+
+ body{
+    /*background-color: rgb(61, 28, 210);*/
+    background: url("../images/1.png");
+    background-size: cover;
+    
+ }
+
+
+ div{
+    width: 300px;
+    border: 15px  solid burlywood;
+    padding: 30px;
+    margin: 30px;
+ }
+
+   p{
+
+    /*color: blue;*/
+   /* color: rgb(28, 188, 210);*/
+   /* color: #fff000;*/
+    color: red;
+    font-size: 20px;
+   /* border: 2px solid black;*/
+
+   border-width: 20px;
+   border-style: solid;
+   border-color: black;
+   }

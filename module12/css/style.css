@@ -1,0 +1,32 @@
+h1{
+    color: green;
+    letter-spacing: 20px;
+    word-spacing: 20px;    /*hapsire ne  mes fjaleve*/
+    text-transform: lowercase;
+}
+
+p{
+    text-indent: 50px; /*e largon tekstin vetem ne fillim*/
+    text-align: center;
+    text-transform: capitalize;
+    writing-mode: vertical-lr;  /* e kthen tekstin vertikal prej majtas djathtas*/
+}
+h2{
+    text-decoration: overline; /*vija del siper*/
+    text-shadow: 2px 2px 5px rgb(0, 0, 0, 0.3);
+}
+
+h3{
+    text-decoration: line-through; /*vija del ne mes fjalis*/
+    
+}
+
+h4{
+    text-decoration: underline; /*vija del perfundi fjalis*/
+}
+div{
+
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    background-color:blue;
+    width: 50px;
+}

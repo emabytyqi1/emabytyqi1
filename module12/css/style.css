@@ -1,15 +1,26 @@
-h1{
-    color: green;
+  
+  
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+  </style>
+  
+  
+  
+  h1{ 
+    color: green !important;
     letter-spacing: 20px;
     word-spacing: 20px;    /*hapsire ne  mes fjaleve*/
     text-transform: lowercase;
-}
+    font-family: "Roboto"; sans-serif;
+   font-optical-sizing: auto;
+   font-weight: <weight>;
+  }
 
 p{
     text-indent: 50px; /*e largon tekstin vetem ne fillim*/
     text-align: center;
     text-transform: capitalize;
-    writing-mode: vertical-lr;  /* e kthen tekstin vertikal prej majtas djathtas*/
+    /*writing-mode: vertical-lr;*/  /* e kthen tekstin vertikal prej majtas djathtas*/
 }
 h2{
     text-decoration: overline; /*vija del siper*/
@@ -28,5 +39,41 @@ div{
 
     clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
     background-color:blue;
-    width: 50px;
+    width: 50%;
+    height: 50%;
+}
+
+.underline{
+    color: red;
+}
+
+#normalText{
+    font-style: normal;
+    font-weight: normal;
+}
+
+#italicText{
+font-style: italic;
+font-weight: bold;
+}
+
+#obliqueText{
+    font-style: oblique;
+    font: weight 50px; ;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: hotpink;
+}
+ 
+a:active{
+    color: white;
 }

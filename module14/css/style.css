@@ -1,4 +1,4 @@
-/*article p{
+article p{
     background-color: blue;
     color: white;
     padding: 20px;
@@ -16,14 +16,14 @@ article ~ p{
 
 article + p{
     background-color: orange;
-}*/
+}
 
-/*h3:first-child{
+h3:first-child{
     background-color: green;
     color:white;
-}*/
+}
 
-/*input:in-range{
+input:in-range{
     border: 3px solid green;
 }
 
@@ -37,18 +37,33 @@ input:required{
 
 input:focus{
     background-color: yellow;
-}*/
+}
 
-/*span:first-of-type{
+span:first-of-type{
     background-color: green;
     color: blue;
     padding:2 ;
-}*/
-
-form:invalid{
+}
+input:invalid{
     border: 10px solid red;
 }
 
-form:valid{
+input:valid{
     border: 10px solid blue;
+}
+
+p ::first-line{
+    color:red
+}
+
+p::first-letter{
+    font-size: 40px;
+}
+
+h1::after{
+    content: url("https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?cs=srgb&dl=pexels-souvenirpixels-414612.jpg&fm=jpg");
+}
+
+.p5{
+    opacity: 2;
 }

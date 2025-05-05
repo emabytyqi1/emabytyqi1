@@ -25,3 +25,38 @@
     left: 200px;
     top: 20px;
 }
+
+#parent{
+    position:relative ;
+    width:250px ;
+    height: 250px;
+    border:3px solid darkblue ;
+}
+
+#child{
+    position:absolute ;
+    width:100px ;
+    height:100px ;
+    background-color:aqua ;
+    left: 80px;
+    top:70px ;
+    color: white;
+}  
+
+div#absolute{
+    position: absolute;
+    width:100px ;
+    height:100px ;
+    background-color:blue ;
+    right:80px ;
+    top:70px ;
+    color: white;
+}
+
+div#sticky{
+    position: sticky;
+    top: 0;
+    bottom: #00014e;
+    padding: 20px;
+    color: white;
+}

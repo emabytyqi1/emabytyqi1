@@ -1,0 +1,51 @@
+div.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+
+}
+
+div.gallery:hover{
+    border: 1px solid #555;
+
+}
+
+div.gallery img{
+    width:100% ;
+    height:auto ;
+}
+
+
+.sprite{
+    background: url("../images/houses.png") no-repeat;
+}
+
+.engineers{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    /*background-position: 0 0;*/
+    background-position: -500px -500px;
+}
+
+a[href="https://shkolladigjitale.com/"]{
+    color: pink;
+}
+
+p[class*="ds"]{
+    
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+div[id="ds"]{
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+
+img[title="2"]{
+    border: 2px solid rgb(red, green, blue);
+}

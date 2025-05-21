@@ -112,6 +112,8 @@
     height: 200px;
     background: red;
     transition: background 3s border-radius 5s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
 }
 
 #transition:hover{

@@ -1,0 +1,156 @@
+.contanier{
+    display: flex;
+    background: #0602a0;
+}
+
+.contanier div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+/*flex order*/
+.contanier div:nth-child(1){
+    order: 2 ;
+}
+
+.contanier div:nth-child(2){
+    order: 3;
+}
+
+.contanier div:nth-child(3){
+    order: 0;
+}
+
+.contanier div:nth-child(4){
+    order: 1;
+}
+/*flex-direction*/
+
+.contanier2{
+    display: flex;
+    background: #0602a0;
+    /*flex-direction:column;
+    flex-direction: column-reverse;
+    flex-direction: row;*/
+    flex-direction: row-reverse;
+}
+
+.contanier2 div{
+   background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+/*flex-grow*/
+
+.contanier3{
+    display: flex;
+    background: #0602a0;
+}
+
+.contanier3 div{
+ background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.contanier3 div:nth-child(3){
+    flex-grow:4;
+}
+
+/*flex-wrap*/
+
+.contanier4{
+    display: flex;
+    background: #0602a0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contanier4 div{
+ background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    width: 35px;
+}
+
+/* justify-content
+- flex-start
+- flex-end
+-center
+- space-between
+- space-around
+- space-evenly */
+
+.contanier5{
+    display: flex;
+    background: #0602a0;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.contanier5 div{
+  background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+
+}
+/* align-items */
+/* - stretch
+- flex-start
+- flex-end
+- center
+- baseline */
+
+.contanier6{
+    display: flex;
+    background: #0602a0;
+    flex-direction: row;
+    height: 200px;
+    align-items: stretch;
+}
+.contanier6 div{
+  background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.contanier6 div:nth-child(1){
+    height: 20px;
+}
+.contanier6 div:nth-child(2){
+    height: 10px;
+}
+.contanier6 div:nth-child(3){
+    height: 50px;
+}
+.contanier6 div:nth-child(4){
+    height: 13px;
+}
+
+/* align-content
+flex-start
+flex-end
+center
+space-between
+space-around
+stretch */
+
+.contanier7{
+    display: flex;
+    background: #0602a0;
+    flex-direction: row;
+    height: 800px;
+    align-content: center;
+}
+.contanier7 div{
+  background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    width: 200px;
+    height:400px;
+}
